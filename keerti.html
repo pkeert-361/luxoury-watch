@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digi Time Watches</title>
+    <!-- Linking the external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>⌚ DIGI TIME</h1>
+    <p>Luxury Digital Watches • Your Time, Your Style</p>
+</header>
+
+<div class="card">
+    <h2>Module 01 – Frontend Development</h2>
+    <h3>Key Objectives</h3>
+    <p>1. Design a modern digital watch website.</p>
+    <p>2. Display watches and their prices (in ₹).</p>
+    <p>3. Add watch customization options.</p>
+    <p>4. Create a responsive website.</p>
+    <button onclick="alert('Frontend completed!')">
+        ✓ Completed
+    </button>
+</div>
+
+<!-- Watch Catalog Section -->
+<div class="card">
+    <h2>Featured Watch Collection</h2>
+    <p>Explore our exclusive digital luxury lineup with transparent pricing in Indian Rupees.</p>
+    
+    <div class="watch-grid">
+        <div class="watch-item">
+            <h4>Chronos Pulse X1</h4>
+            <div class="price">₹4,999</div>
+            <button onclick="buyWatch('Chronos Pulse X1')">Buy Now</button>
+        </div>
+        <div class="watch-item">
+            <h4>Apex Stealth Digital</h4>
+            <div class="price">₹7,499</div>
+            <button onclick="buyWatch('Apex Stealth Digital')">Buy Now</button>
+        </div>
+        <div class="watch-item">
+            <h4>Titanium Neo Pro</h4>
+            <div class="price">₹12,999</div>
+            <button onclick="buyWatch('Titanium Neo Pro')">Buy Now</button>
+        </div>
+    </div>
+</div>
+
+<div class="card">
+    <h2>Module 02 – Backend Development</h2>
+    <h3>Key Objectives</h3>
+    <p>1. Manage user registration and login.</p>
+    <p>2. Create APIs for the application.</p>
+    <p>3. Manage watch products and orders.</p>
+    <p>4. Connect the frontend to a backend.</p>
+
+    <h3>Submit Your Details</h3>
+    <input id="username" placeholder="Enter your name">
+    <br>
+    <input id="email" type="email" placeholder="Enter your email">
+    <br>
+    <button onclick="submitDetails()">Submit Deliverables</button>
+    <p id="message"></p>
+</div>
+
+<div class="card">
+    <h2>Module 03 – Database Integration</h2>
+    <p>Manage watch products, customer details, and orders.</p>
+</div>
+
+<!-- Linking the external JavaScript file -->
+<script src="script.js"></script>
+</body>
+</html>
